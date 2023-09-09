@@ -1,0 +1,13 @@
+old
+examples
+SymbolCache.noindex
+.DS_Store
+
+chifra*
+makeClass
+testRunner
+migrate
+
+# some visual studio stuff
+ModuleCache*
+proj

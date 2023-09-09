@@ -1,0 +1,6 @@
+scrape?channelCount=-12
+{
+  "errors": [
+    "Cannot test block scraper"
+  ]
+}

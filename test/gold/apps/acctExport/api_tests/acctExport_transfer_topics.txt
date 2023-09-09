@@ -1,0 +1,31 @@
+export?addrs=0xff9387a9aae1f5daab1cd8eb0e92113ea9d19ca3&logs&topics=0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef&maxRecords=4
+{
+  "data": [
+    {
+      "address": "0xd0b3462481c33f63a288cd1923e2a261ee65b4ff",
+      "blockHash": "0x5692e14016df23f9a63072c70734dd298746f0cafa3094a1e2c21707fb30bb01",
+      "blockNumber": 4081451,
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "date": "2017-07-27 15:16:52 UTC",
+      "logIndex": 16,
+      "timestamp": 1501168612,
+      "topics": [
+        "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+        "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "0x000000000000000000000000ff9387a9aae1f5daab1cd8eb0e92113ea9d19ca3"
+      ],
+      "transactionHash": "0x63dce6a287731f788da8cebe368a6f17dab69c10589fb9328563a828403fd9a9",
+      "transactionIndex": 4
+    }
+  ],
+  "meta": {
+    "client": "0xdeadbeef",
+    "finalized": "0xdeadbeef",
+    "staging": "0xdeadbeef",
+    "ripe": "0xdeadbeef",
+    "unripe": "0xdeadbeef",
+    "chainId": 1,
+    "networkId": 1,
+    "chain": "mainnet"
+  }
+}

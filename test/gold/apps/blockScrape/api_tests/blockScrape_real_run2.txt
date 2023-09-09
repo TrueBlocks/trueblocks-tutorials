@@ -1,0 +1,6 @@
+scrape?sleep=.5
+{
+  "errors": [
+    "Cannot test block scraper"
+  ]
+}

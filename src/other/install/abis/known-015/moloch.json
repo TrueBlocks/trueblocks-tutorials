@@ -1,0 +1,1684 @@
+[
+  {
+    "encoding": "0xa9059cbb",
+    "inputs": [
+      {
+        "name": "to",
+        "type": "address"
+      },
+      {
+        "name": "value",
+        "type": "uint256"
+      }
+    ],
+    "name": "transfer",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "bool"
+      }
+    ],
+    "signature": "transfer(address,uint256)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x095ea7b3",
+    "inputs": [
+      {
+        "name": "spender",
+        "type": "address"
+      },
+      {
+        "name": "value",
+        "type": "uint256"
+      }
+    ],
+    "name": "approve",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "bool"
+      }
+    ],
+    "signature": "approve(address,uint256)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x23b872dd",
+    "inputs": [
+      {
+        "name": "from",
+        "type": "address"
+      },
+      {
+        "name": "to",
+        "type": "address"
+      },
+      {
+        "name": "value",
+        "type": "uint256"
+      }
+    ],
+    "name": "transferFrom",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "bool"
+      }
+    ],
+    "signature": "transferFrom(address,address,uint256)",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "encoding": "0x18160ddd",
+    "inputs": [],
+    "name": "totalSupply",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "uint256"
+      }
+    ],
+    "signature": "totalSupply()",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "encoding": "0x70a08231",
+    "inputs": [
+      {
+        "name": "who",
+        "type": "address"
+      }
+    ],
+    "name": "balanceOf",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "uint256"
+      }
+    ],
+    "signature": "balanceOf(address)",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "encoding": "0xdd62ed3e",
+    "inputs": [
+      {
+        "name": "owner",
+        "type": "address"
+      },
+      {
+        "name": "spender",
+        "type": "address"
+      }
+    ],
+    "name": "allowance",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "uint256"
+      }
+    ],
+    "signature": "allowance(address,address)",
+    "type": "function"
+  },
+  {
+    "encoding": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "from",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "name": "to",
+        "type": "address"
+      },
+      {
+        "name": "value",
+        "type": "uint256"
+      }
+    ],
+    "name": "Transfer",
+    "outputs": [],
+    "signature": "Transfer(address,address,uint256)",
+    "type": "event"
+  },
+  {
+    "encoding": "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "owner",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "name": "spender",
+        "type": "address"
+      },
+      {
+        "name": "value",
+        "type": "uint256"
+      }
+    ],
+    "name": "Approval",
+    "outputs": [],
+    "signature": "Approval(address,address,uint256)",
+    "type": "event"
+  },
+  {
+    "constant": true,
+    "encoding": "0x18160ddd",
+    "inputs": [],
+    "name": "totalSupply",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "uint256"
+      }
+    ],
+    "signature": "totalSupply()",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "encoding": "0x70a08231",
+    "inputs": [
+      {
+        "name": "owner",
+        "type": "address"
+      }
+    ],
+    "name": "balanceOf",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "uint256"
+      }
+    ],
+    "signature": "balanceOf(address)",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "encoding": "0xdd62ed3e",
+    "inputs": [
+      {
+        "name": "owner",
+        "type": "address"
+      },
+      {
+        "name": "spender",
+        "type": "address"
+      }
+    ],
+    "name": "allowance",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "uint256"
+      }
+    ],
+    "signature": "allowance(address,address)",
+    "type": "function"
+  },
+  {
+    "encoding": "0xa9059cbb",
+    "inputs": [
+      {
+        "name": "to",
+        "type": "address"
+      },
+      {
+        "name": "value",
+        "type": "uint256"
+      }
+    ],
+    "name": "transfer",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "bool"
+      }
+    ],
+    "signature": "transfer(address,uint256)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x095ea7b3",
+    "inputs": [
+      {
+        "name": "spender",
+        "type": "address"
+      },
+      {
+        "name": "value",
+        "type": "uint256"
+      }
+    ],
+    "name": "approve",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "bool"
+      }
+    ],
+    "signature": "approve(address,uint256)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x23b872dd",
+    "inputs": [
+      {
+        "name": "from",
+        "type": "address"
+      },
+      {
+        "name": "to",
+        "type": "address"
+      },
+      {
+        "name": "value",
+        "type": "uint256"
+      }
+    ],
+    "name": "transferFrom",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "bool"
+      }
+    ],
+    "signature": "transferFrom(address,address,uint256)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x39509351",
+    "inputs": [
+      {
+        "name": "spender",
+        "type": "address"
+      },
+      {
+        "name": "addedValue",
+        "type": "uint256"
+      }
+    ],
+    "name": "increaseAllowance",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "bool"
+      }
+    ],
+    "signature": "increaseAllowance(address,uint256)",
+    "type": "function"
+  },
+  {
+    "encoding": "0xa457c2d7",
+    "inputs": [
+      {
+        "name": "spender",
+        "type": "address"
+      },
+      {
+        "name": "subtractedValue",
+        "type": "uint256"
+      }
+    ],
+    "name": "decreaseAllowance",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "bool"
+      }
+    ],
+    "signature": "decreaseAllowance(address,uint256)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x30e0789e",
+    "inputs": [
+      {
+        "name": "from",
+        "type": "address"
+      },
+      {
+        "name": "to",
+        "type": "address"
+      },
+      {
+        "name": "value",
+        "type": "uint256"
+      }
+    ],
+    "name": "_transfer",
+    "outputs": [],
+    "signature": "_transfer(address,address,uint256)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x4e6ec247",
+    "inputs": [
+      {
+        "name": "account",
+        "type": "address"
+      },
+      {
+        "name": "value",
+        "type": "uint256"
+      }
+    ],
+    "name": "_mint",
+    "outputs": [],
+    "signature": "_mint(address,uint256)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x6161eb18",
+    "inputs": [
+      {
+        "name": "account",
+        "type": "address"
+      },
+      {
+        "name": "value",
+        "type": "uint256"
+      }
+    ],
+    "name": "_burn",
+    "outputs": [],
+    "signature": "_burn(address,uint256)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x104e81ff",
+    "inputs": [
+      {
+        "name": "owner",
+        "type": "address"
+      },
+      {
+        "name": "spender",
+        "type": "address"
+      },
+      {
+        "name": "value",
+        "type": "uint256"
+      }
+    ],
+    "name": "_approve",
+    "outputs": [],
+    "signature": "_approve(address,address,uint256)",
+    "type": "function"
+  },
+  {
+    "encoding": "0xa22b35ce",
+    "inputs": [
+      {
+        "name": "account",
+        "type": "address"
+      },
+      {
+        "name": "value",
+        "type": "uint256"
+      }
+    ],
+    "name": "_burnFrom",
+    "outputs": [],
+    "signature": "_burnFrom(address,uint256)",
+    "type": "function"
+  },
+  {
+    "encoding": "0xc8a4ac9c",
+    "inputs": [
+      {
+        "name": "a",
+        "type": "uint256"
+      },
+      {
+        "name": "b",
+        "type": "uint256"
+      }
+    ],
+    "name": "mul",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "uint256"
+      }
+    ],
+    "signature": "mul(uint256,uint256)",
+    "type": "function"
+  },
+  {
+    "encoding": "0xa391c15b",
+    "inputs": [
+      {
+        "name": "a",
+        "type": "uint256"
+      },
+      {
+        "name": "b",
+        "type": "uint256"
+      }
+    ],
+    "name": "div",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "uint256"
+      }
+    ],
+    "signature": "div(uint256,uint256)",
+    "type": "function"
+  },
+  {
+    "encoding": "0xb67d77c5",
+    "inputs": [
+      {
+        "name": "a",
+        "type": "uint256"
+      },
+      {
+        "name": "b",
+        "type": "uint256"
+      }
+    ],
+    "name": "sub",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "uint256"
+      }
+    ],
+    "signature": "sub(uint256,uint256)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x771602f7",
+    "inputs": [
+      {
+        "name": "a",
+        "type": "uint256"
+      },
+      {
+        "name": "b",
+        "type": "uint256"
+      }
+    ],
+    "name": "add",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "uint256"
+      }
+    ],
+    "signature": "add(uint256,uint256)",
+    "type": "function"
+  },
+  {
+    "encoding": "0xc9943dac607a408ce079996205c3b771a7e464a5cf3859bc3315813f965e9240",
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "summoner",
+        "type": "address"
+      },
+      {
+        "is_array": true,
+        "name": "tokens",
+        "type": "address[]"
+      },
+      {
+        "name": "summoningTime",
+        "type": "uint256"
+      },
+      {
+        "name": "periodDuration",
+        "type": "uint256"
+      },
+      {
+        "name": "votingPeriodLength",
+        "type": "uint256"
+      },
+      {
+        "name": "gracePeriodLength",
+        "type": "uint256"
+      },
+      {
+        "name": "proposalDeposit",
+        "type": "uint256"
+      },
+      {
+        "name": "dilutionBound",
+        "type": "uint256"
+      },
+      {
+        "name": "processingReward",
+        "type": "uint256"
+      }
+    ],
+    "name": "SummonComplete",
+    "outputs": [],
+    "signature": "SummonComplete(address,address[],uint256,uint256,uint256,uint256,uint256,uint256,uint256)",
+    "type": "event"
+  },
+  {
+    "encoding": "0xa763e0f5e4f4e33a3397b4ba22677c9b6fd2075ed6504596333006ff2f3e3874",
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "applicant",
+        "type": "address"
+      },
+      {
+        "name": "sharesRequested",
+        "type": "uint256"
+      },
+      {
+        "name": "lootRequested",
+        "type": "uint256"
+      },
+      {
+        "name": "tributeOffered",
+        "type": "uint256"
+      },
+      {
+        "name": "tributeToken",
+        "type": "address"
+      },
+      {
+        "name": "paymentRequested",
+        "type": "uint256"
+      },
+      {
+        "name": "paymentToken",
+        "type": "address"
+      },
+      {
+        "name": "details",
+        "type": "string"
+      },
+      {
+        "is_array": true,
+        "name": "flags",
+        "type": "bool[6]"
+      },
+      {
+        "name": "proposalId",
+        "type": "uint256"
+      },
+      {
+        "indexed": true,
+        "name": "delegateKey",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "name": "memberAddress",
+        "type": "address"
+      }
+    ],
+    "name": "SubmitProposal",
+    "outputs": [],
+    "signature": "SubmitProposal(address,uint256,uint256,uint256,address,uint256,address,string,bool[6],uint256,address,address)",
+    "type": "event"
+  },
+  {
+    "encoding": "0x2a383a979381335e3eb401ac01dd8083e024ff0256bf5338456ffc0063390bbd",
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "delegateKey",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "name": "memberAddress",
+        "type": "address"
+      },
+      {
+        "name": "proposalId",
+        "type": "uint256"
+      },
+      {
+        "name": "proposalIndex",
+        "type": "uint256"
+      },
+      {
+        "name": "startingPeriod",
+        "type": "uint256"
+      }
+    ],
+    "name": "SponsorProposal",
+    "outputs": [],
+    "signature": "SponsorProposal(address,address,uint256,uint256,uint256)",
+    "type": "event"
+  },
+  {
+    "encoding": "0x804f03797630bf8b8a46b9371608abbf7d78a20df720e477bab641957ca68a20",
+    "inputs": [
+      {
+        "name": "proposalId",
+        "type": "uint256"
+      },
+      {
+        "indexed": true,
+        "name": "proposalIndex",
+        "type": "uint256"
+      },
+      {
+        "indexed": true,
+        "name": "delegateKey",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "name": "memberAddress",
+        "type": "address"
+      },
+      {
+        "name": "uintVote",
+        "type": "uint8"
+      }
+    ],
+    "name": "SubmitVote",
+    "outputs": [],
+    "signature": "SubmitVote(uint256,uint256,address,address,uint8)",
+    "type": "event"
+  },
+  {
+    "encoding": "0x86f74240ecee9e4230d26ff92e17fee978460d9c0f78f5c88b2864c9e7a49427",
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "proposalIndex",
+        "type": "uint256"
+      },
+      {
+        "indexed": true,
+        "name": "proposalId",
+        "type": "uint256"
+      },
+      {
+        "name": "didPass",
+        "type": "bool"
+      }
+    ],
+    "name": "ProcessProposal",
+    "outputs": [],
+    "signature": "ProcessProposal(uint256,uint256,bool)",
+    "type": "event"
+  },
+  {
+    "encoding": "0x2094fc13d2ecb0acd6861e82bd006c7e5ab6f312ec0c6cdfe3d1a01ee54d885a",
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "proposalIndex",
+        "type": "uint256"
+      },
+      {
+        "indexed": true,
+        "name": "proposalId",
+        "type": "uint256"
+      },
+      {
+        "name": "didPass",
+        "type": "bool"
+      }
+    ],
+    "name": "ProcessWhitelistProposal",
+    "outputs": [],
+    "signature": "ProcessWhitelistProposal(uint256,uint256,bool)",
+    "type": "event"
+  },
+  {
+    "encoding": "0x0e347d00d3e9e6cdff9e6c09092c9ff1bd448f9b3dfb7091b30939ec5e7a3c73",
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "proposalIndex",
+        "type": "uint256"
+      },
+      {
+        "indexed": true,
+        "name": "proposalId",
+        "type": "uint256"
+      },
+      {
+        "name": "didPass",
+        "type": "bool"
+      }
+    ],
+    "name": "ProcessGuildKickProposal",
+    "outputs": [],
+    "signature": "ProcessGuildKickProposal(uint256,uint256,bool)",
+    "type": "event"
+  },
+  {
+    "encoding": "0xcad1a1c68982832d9abc314de8a1e5d5e8c81b0588961e360766736d10c3be1a",
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "memberAddress",
+        "type": "address"
+      },
+      {
+        "name": "sharesToBurn",
+        "type": "uint256"
+      },
+      {
+        "name": "lootToBurn",
+        "type": "uint256"
+      }
+    ],
+    "name": "Ragequit",
+    "outputs": [],
+    "signature": "Ragequit(address,uint256,uint256)",
+    "type": "event"
+  },
+  {
+    "encoding": "0x9381e53ffdc9733a6783a6f8665be3f89c231bb81a6771996ed553b4e75c0fe3",
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "token",
+        "type": "address"
+      },
+      {
+        "name": "amountToCollect",
+        "type": "uint256"
+      }
+    ],
+    "name": "TokensCollected",
+    "outputs": [],
+    "signature": "TokensCollected(address,uint256)",
+    "type": "event"
+  },
+  {
+    "encoding": "0xc215fed6680bb02d323dc3f8b8f85241572607538426059c9232601bd293c3be",
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "proposalId",
+        "type": "uint256"
+      },
+      {
+        "name": "applicantAddress",
+        "type": "address"
+      }
+    ],
+    "name": "CancelProposal",
+    "outputs": [],
+    "signature": "CancelProposal(uint256,address)",
+    "type": "event"
+  },
+  {
+    "encoding": "0xde7b64a369e10562cc2e71f0f1f944eaf144b75fead6ecb51fac9c4dd6934885",
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "memberAddress",
+        "type": "address"
+      },
+      {
+        "name": "newDelegateKey",
+        "type": "address"
+      }
+    ],
+    "name": "UpdateDelegateKey",
+    "outputs": [],
+    "signature": "UpdateDelegateKey(address,address)",
+    "type": "event"
+  },
+  {
+    "encoding": "0x9b1bfa7fa9ee420a16e124f794c35ac9f90472acc99140eb2f6447c714cad8eb",
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "memberAddress",
+        "type": "address"
+      },
+      {
+        "name": "token",
+        "type": "address"
+      },
+      {
+        "name": "amount",
+        "type": "uint256"
+      }
+    ],
+    "name": "Withdraw",
+    "outputs": [],
+    "signature": "Withdraw(address,address,uint256)",
+    "type": "event"
+  },
+  {
+    "encoding": "0x590f940b",
+    "inputs": [
+      {
+        "name": "applicant",
+        "type": "address"
+      },
+      {
+        "name": "sharesRequested",
+        "type": "uint256"
+      },
+      {
+        "name": "lootRequested",
+        "type": "uint256"
+      },
+      {
+        "name": "tributeOffered",
+        "type": "uint256"
+      },
+      {
+        "name": "tributeToken",
+        "type": "address"
+      },
+      {
+        "name": "paymentRequested",
+        "type": "uint256"
+      },
+      {
+        "name": "paymentToken",
+        "type": "address"
+      },
+      {
+        "name": "details",
+        "type": "string"
+      }
+    ],
+    "name": "submitProposal",
+    "outputs": [
+      {
+        "name": "proposalId",
+        "type": "uint256"
+      }
+    ],
+    "signature": "submitProposal(address,uint256,uint256,uint256,address,uint256,address,string)",
+    "type": "function"
+  },
+  {
+    "encoding": "0xfeb7ea1d",
+    "inputs": [
+      {
+        "name": "tokenToWhitelist",
+        "type": "address"
+      },
+      {
+        "name": "details",
+        "type": "string"
+      }
+    ],
+    "name": "submitWhitelistProposal",
+    "outputs": [
+      {
+        "name": "proposalId",
+        "type": "uint256"
+      }
+    ],
+    "signature": "submitWhitelistProposal(address,string)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x115b2d18",
+    "inputs": [
+      {
+        "name": "memberToKick",
+        "type": "address"
+      },
+      {
+        "name": "details",
+        "type": "string"
+      }
+    ],
+    "name": "submitGuildKickProposal",
+    "outputs": [
+      {
+        "name": "proposalId",
+        "type": "uint256"
+      }
+    ],
+    "signature": "submitGuildKickProposal(address,string)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x7851750b",
+    "inputs": [
+      {
+        "name": "applicant",
+        "type": "address"
+      },
+      {
+        "name": "sharesRequested",
+        "type": "uint256"
+      },
+      {
+        "name": "lootRequested",
+        "type": "uint256"
+      },
+      {
+        "name": "tributeOffered",
+        "type": "uint256"
+      },
+      {
+        "name": "tributeToken",
+        "type": "address"
+      },
+      {
+        "name": "paymentRequested",
+        "type": "uint256"
+      },
+      {
+        "name": "paymentToken",
+        "type": "address"
+      },
+      {
+        "name": "details",
+        "type": "string"
+      },
+      {
+        "is_array": true,
+        "name": "flags",
+        "type": "bool[6]"
+      }
+    ],
+    "name": "_submitProposal",
+    "outputs": [],
+    "signature": "_submitProposal(address,uint256,uint256,uint256,address,uint256,address,string,bool[6])",
+    "type": "function"
+  },
+  {
+    "encoding": "0x9746d940",
+    "inputs": [
+      {
+        "name": "proposalId",
+        "type": "uint256"
+      }
+    ],
+    "name": "sponsorProposal",
+    "outputs": [],
+    "signature": "sponsorProposal(uint256)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x99653fbe",
+    "inputs": [
+      {
+        "name": "proposalIndex",
+        "type": "uint256"
+      },
+      {
+        "name": "uintVote",
+        "type": "uint8"
+      }
+    ],
+    "name": "submitVote",
+    "outputs": [],
+    "signature": "submitVote(uint256,uint8)",
+    "type": "function"
+  },
+  {
+    "encoding": "0xe63bc62d",
+    "inputs": [
+      {
+        "name": "proposalIndex",
+        "type": "uint256"
+      }
+    ],
+    "name": "processProposal",
+    "outputs": [],
+    "signature": "processProposal(uint256)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x3793ab3c",
+    "inputs": [
+      {
+        "name": "proposalIndex",
+        "type": "uint256"
+      }
+    ],
+    "name": "processWhitelistProposal",
+    "outputs": [],
+    "signature": "processWhitelistProposal(uint256)",
+    "type": "function"
+  },
+  {
+    "encoding": "0xe1a0e3fa",
+    "inputs": [
+      {
+        "name": "proposalIndex",
+        "type": "uint256"
+      }
+    ],
+    "name": "processGuildKickProposal",
+    "outputs": [],
+    "signature": "processGuildKickProposal(uint256)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x502d145f",
+    "inputs": [
+      {
+        "name": "proposalIndex",
+        "type": "uint256"
+      }
+    ],
+    "name": "_didPass",
+    "outputs": [
+      {
+        "name": "didPass",
+        "type": "bool"
+      }
+    ],
+    "signature": "_didPass(uint256)",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "encoding": "0x60218e17",
+    "inputs": [
+      {
+        "name": "proposalIndex",
+        "type": "uint256"
+      }
+    ],
+    "name": "_validateProposalForProcessing",
+    "outputs": [],
+    "signature": "_validateProposalForProcessing(uint256)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x756c562a",
+    "inputs": [
+      {
+        "name": "sponsor",
+        "type": "address"
+      }
+    ],
+    "name": "_returnDeposit",
+    "outputs": [],
+    "signature": "_returnDeposit(address)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x15eb349e",
+    "inputs": [
+      {
+        "name": "sharesToBurn",
+        "type": "uint256"
+      },
+      {
+        "name": "lootToBurn",
+        "type": "uint256"
+      }
+    ],
+    "name": "ragequit",
+    "outputs": [],
+    "signature": "ragequit(uint256,uint256)",
+    "type": "function"
+  },
+  {
+    "encoding": "0xa72c01ba",
+    "inputs": [
+      {
+        "name": "memberAddress",
+        "type": "address"
+      },
+      {
+        "name": "sharesToBurn",
+        "type": "uint256"
+      },
+      {
+        "name": "lootToBurn",
+        "type": "uint256"
+      }
+    ],
+    "name": "_ragequit",
+    "outputs": [],
+    "signature": "_ragequit(address,uint256,uint256)",
+    "type": "function"
+  },
+  {
+    "encoding": "0xdfdd369e",
+    "inputs": [
+      {
+        "name": "memberToKick",
+        "type": "address"
+      }
+    ],
+    "name": "ragekick",
+    "outputs": [],
+    "signature": "ragekick(address)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x0cf20cc9",
+    "inputs": [
+      {
+        "name": "token",
+        "type": "address"
+      },
+      {
+        "name": "amount",
+        "type": "uint256"
+      }
+    ],
+    "name": "withdrawBalance",
+    "outputs": [],
+    "signature": "withdrawBalance(address,uint256)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x4482394b",
+    "inputs": [
+      {
+        "is_array": true,
+        "name": "tokens",
+        "type": "address[]"
+      },
+      {
+        "is_array": true,
+        "name": "amounts",
+        "type": "uint256[]"
+      },
+      {
+        "name": "max",
+        "type": "bool"
+      }
+    ],
+    "name": "withdrawBalances",
+    "outputs": [],
+    "signature": "withdrawBalances(address[],uint256[],bool)",
+    "type": "function"
+  },
+  {
+    "encoding": "0xfad674d9",
+    "inputs": [
+      {
+        "name": "token",
+        "type": "address"
+      },
+      {
+        "name": "amount",
+        "type": "uint256"
+      }
+    ],
+    "name": "_withdrawBalance",
+    "outputs": [],
+    "signature": "_withdrawBalance(address,uint256)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x59999b41",
+    "inputs": [
+      {
+        "name": "token",
+        "type": "address"
+      }
+    ],
+    "name": "collectTokens",
+    "outputs": [],
+    "signature": "collectTokens(address)",
+    "type": "function"
+  },
+  {
+    "encoding": "0xe0a8f6f5",
+    "inputs": [
+      {
+        "name": "proposalId",
+        "type": "uint256"
+      }
+    ],
+    "name": "cancelProposal",
+    "outputs": [],
+    "signature": "cancelProposal(uint256)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x2582bf2a",
+    "inputs": [
+      {
+        "name": "newDelegateKey",
+        "type": "address"
+      }
+    ],
+    "name": "updateDelegateKey",
+    "outputs": [],
+    "signature": "updateDelegateKey(address)",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "encoding": "0xa3dc3800",
+    "inputs": [
+      {
+        "name": "highestIndexYesVote",
+        "type": "uint256"
+      }
+    ],
+    "name": "canRagequit",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "bool"
+      }
+    ],
+    "signature": "canRagequit(uint256)",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "encoding": "0x9425a476",
+    "inputs": [
+      {
+        "name": "startingPeriod",
+        "type": "uint256"
+      }
+    ],
+    "name": "hasVotingPeriodExpired",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "bool"
+      }
+    ],
+    "signature": "hasVotingPeriodExpired(uint256)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x6d5433e6",
+    "inputs": [
+      {
+        "name": "x",
+        "type": "uint256"
+      },
+      {
+        "name": "y",
+        "type": "uint256"
+      }
+    ],
+    "name": "max",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "uint256"
+      }
+    ],
+    "signature": "max(uint256,uint256)",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "encoding": "0x086146d2",
+    "inputs": [],
+    "name": "getCurrentPeriod",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "uint256"
+      }
+    ],
+    "signature": "getCurrentPeriod()",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "encoding": "0x797daf70",
+    "inputs": [],
+    "name": "getProposalQueueLength",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "uint256"
+      }
+    ],
+    "signature": "getProposalQueueLength()",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "encoding": "0xb2643aab",
+    "inputs": [
+      {
+        "name": "proposalId",
+        "type": "uint256"
+      }
+    ],
+    "name": "getProposalFlags",
+    "outputs": [
+      {
+        "is_array": true,
+        "name": "memory",
+        "type": "bool[6]"
+      }
+    ],
+    "signature": "getProposalFlags(uint256)",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "encoding": "0x73f8fd4b",
+    "inputs": [
+      {
+        "name": "user",
+        "type": "address"
+      },
+      {
+        "name": "token",
+        "type": "address"
+      }
+    ],
+    "name": "getUserTokenBalance",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "uint256"
+      }
+    ],
+    "signature": "getUserTokenBalance(address,address)",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "encoding": "0x044a0ca8",
+    "inputs": [
+      {
+        "name": "memberAddress",
+        "type": "address"
+      },
+      {
+        "name": "proposalIndex",
+        "type": "uint256"
+      }
+    ],
+    "name": "getMemberProposalVote",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "uint8"
+      }
+    ],
+    "signature": "getMemberProposalVote(address,uint256)",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "encoding": "0x78a89567",
+    "inputs": [],
+    "name": "getTokenCount",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "uint256"
+      }
+    ],
+    "signature": "getTokenCount()",
+    "type": "function"
+  },
+  {
+    "encoding": "0x68695957",
+    "inputs": [
+      {
+        "name": "user",
+        "type": "address"
+      },
+      {
+        "name": "token",
+        "type": "address"
+      },
+      {
+        "name": "amount",
+        "type": "uint256"
+      }
+    ],
+    "name": "unsafeAddToBalance",
+    "outputs": [],
+    "signature": "unsafeAddToBalance(address,address,uint256)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x0e0910b0",
+    "inputs": [
+      {
+        "name": "user",
+        "type": "address"
+      },
+      {
+        "name": "token",
+        "type": "address"
+      },
+      {
+        "name": "amount",
+        "type": "uint256"
+      }
+    ],
+    "name": "unsafeSubtractFromBalance",
+    "outputs": [],
+    "signature": "unsafeSubtractFromBalance(address,address,uint256)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x12cec7f0",
+    "inputs": [
+      {
+        "name": "from",
+        "type": "address"
+      },
+      {
+        "name": "to",
+        "type": "address"
+      },
+      {
+        "name": "token",
+        "type": "address"
+      },
+      {
+        "name": "amount",
+        "type": "uint256"
+      }
+    ],
+    "name": "unsafeInternalTransfer",
+    "outputs": [],
+    "signature": "unsafeInternalTransfer(address,address,address,uint256)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x0d922c8a",
+    "inputs": [
+      {
+        "name": "balance",
+        "type": "uint256"
+      },
+      {
+        "name": "shares",
+        "type": "uint256"
+      },
+      {
+        "name": "totalShares",
+        "type": "uint256"
+      }
+    ],
+    "name": "fairShare",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "uint256"
+      }
+    ],
+    "signature": "fairShare(uint256,uint256,uint256)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x08324b3d745b914e3abd4ffbfead91e3b78391a98c173202129215ab933adfbe",
+    "inputs": [
+      {
+        "name": "proposalId",
+        "type": "uint256"
+      }
+    ],
+    "name": "Submit",
+    "outputs": [],
+    "signature": "Submit(uint256)",
+    "type": "event"
+  },
+  {
+    "encoding": "0x590f940b",
+    "inputs": [
+      {
+        "name": "applicant",
+        "type": "address"
+      },
+      {
+        "name": "sharesRequested",
+        "type": "uint256"
+      },
+      {
+        "name": "lootRequested",
+        "type": "uint256"
+      },
+      {
+        "name": "tributeOffered",
+        "type": "uint256"
+      },
+      {
+        "name": "tributeToken",
+        "type": "address"
+      },
+      {
+        "name": "paymentRequested",
+        "type": "uint256"
+      },
+      {
+        "name": "paymentToken",
+        "type": "address"
+      },
+      {
+        "name": "details",
+        "type": "string"
+      }
+    ],
+    "name": "submitProposal",
+    "outputs": [],
+    "signature": "submitProposal(address,uint256,uint256,uint256,address,uint256,address,string)",
+    "type": "function"
+  },
+  {
+    "encoding": "0xfeb7ea1d",
+    "inputs": [
+      {
+        "name": "tokenToWhitelist",
+        "type": "address"
+      },
+      {
+        "name": "details",
+        "type": "string"
+      }
+    ],
+    "name": "submitWhitelistProposal",
+    "outputs": [],
+    "signature": "submitWhitelistProposal(address,string)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x115b2d18",
+    "inputs": [
+      {
+        "name": "memberToKick",
+        "type": "address"
+      },
+      {
+        "name": "details",
+        "type": "string"
+      }
+    ],
+    "name": "submitGuildKickProposal",
+    "outputs": [],
+    "signature": "submitGuildKickProposal(address,string)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x5d117058594e38d35f98a79b5e9cbcd9fa0597fad786e2826bc4f290a0f5d4a7",
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "M",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "name": "_summoner",
+        "type": "address"
+      }
+    ],
+    "name": "Summoned",
+    "outputs": [],
+    "signature": "Summoned(address,address)",
+    "type": "event"
+  },
+  {
+    "encoding": "0x56c40ab5",
+    "inputs": [
+      {
+        "name": "_summoner",
+        "type": "address"
+      },
+      {
+        "is_array": true,
+        "name": "_approvedTokens",
+        "type": "address[]"
+      },
+      {
+        "name": "_periodDuration",
+        "type": "uint256"
+      },
+      {
+        "name": "_votingPeriodLength",
+        "type": "uint256"
+      },
+      {
+        "name": "_gracePeriodLength",
+        "type": "uint256"
+      },
+      {
+        "name": "_proposalDeposit",
+        "type": "uint256"
+      },
+      {
+        "name": "_dilutionBound",
+        "type": "uint256"
+      },
+      {
+        "name": "_processingReward",
+        "type": "uint256"
+      }
+    ],
+    "name": "summonMoloch",
+    "outputs": [],
+    "signature": "summonMoloch(address,address[],uint256,uint256,uint256,uint256,uint256,uint256)",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "encoding": "0x0fe204bd",
+    "inputs": [],
+    "name": "getMolochCount",
+    "outputs": [
+      {
+        "name": "MolochCount",
+        "type": "uint256"
+      }
+    ],
+    "signature": "getMolochCount()",
+    "type": "function"
+  }
+]

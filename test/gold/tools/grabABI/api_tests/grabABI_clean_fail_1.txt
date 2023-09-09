@@ -1,0 +1,6 @@
+abis?clean&known
+{
+  "errors": [
+    "The --clean option is not available in API mode."
+  ]
+}

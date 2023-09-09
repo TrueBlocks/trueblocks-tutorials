@@ -1,0 +1,274 @@
+[
+  {
+    "constant": true,
+    "encoding": "0x249cb3fa",
+    "inputs": [
+      {
+        "name": "interfaceHash",
+        "type": "bytes32"
+      },
+      {
+        "name": "addr",
+        "type": "address"
+      }
+    ],
+    "name": "canImplementInterfaceForAddress",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "bytes32"
+      }
+    ],
+    "signature": "canImplementInterfaceForAddress(bytes32,address)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x93baa6efbd2244243bfee6ce4cfdd1d04fc4c0e9a786abd3a41313bd352db153",
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "addr",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "name": "interfaceHash",
+        "type": "bytes32"
+      },
+      {
+        "indexed": true,
+        "name": "implementer",
+        "type": "address"
+      }
+    ],
+    "name": "InterfaceImplementerSet",
+    "outputs": [],
+    "signature": "InterfaceImplementerSet(address,bytes32,address)",
+    "type": "event"
+  },
+  {
+    "encoding": "0x605c2dbf762e5f7d60a546d42e7205dcb1b011ebc62a61736a57c9089d3a4350",
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "addr",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "name": "newManager",
+        "type": "address"
+      }
+    ],
+    "name": "ManagerChanged",
+    "outputs": [],
+    "signature": "ManagerChanged(address,address)",
+    "type": "event"
+  },
+  {
+    "constant": true,
+    "encoding": "0xaabbb8ca",
+    "inputs": [
+      {
+        "name": "_addr",
+        "type": "address"
+      },
+      {
+        "name": "_interfaceHash",
+        "type": "bytes32"
+      }
+    ],
+    "name": "getInterfaceImplementer",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "address"
+      }
+    ],
+    "signature": "getInterfaceImplementer(address,bytes32)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x29965a1d",
+    "inputs": [
+      {
+        "name": "_addr",
+        "type": "address"
+      },
+      {
+        "name": "_interfaceHash",
+        "type": "bytes32"
+      },
+      {
+        "name": "_implementer",
+        "type": "address"
+      }
+    ],
+    "name": "setInterfaceImplementer",
+    "outputs": [],
+    "signature": "setInterfaceImplementer(address,bytes32,address)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x5df8122f",
+    "inputs": [
+      {
+        "name": "_addr",
+        "type": "address"
+      },
+      {
+        "name": "_newManager",
+        "type": "address"
+      }
+    ],
+    "name": "setManager",
+    "outputs": [],
+    "signature": "setManager(address,address)",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "encoding": "0x3d584063",
+    "inputs": [
+      {
+        "name": "_addr",
+        "type": "address"
+      }
+    ],
+    "name": "getManager",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "address"
+      }
+    ],
+    "signature": "getManager(address)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x65ba36c1",
+    "inputs": [
+      {
+        "name": "_interfaceName",
+        "type": "string"
+      }
+    ],
+    "name": "interfaceHash",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "bytes32"
+      }
+    ],
+    "signature": "interfaceHash(string)",
+    "type": "function"
+  },
+  {
+    "encoding": "0xa41e7d51",
+    "inputs": [
+      {
+        "name": "_contract",
+        "type": "address"
+      },
+      {
+        "name": "_interfaceId",
+        "type": "bytes4"
+      }
+    ],
+    "name": "updateERC165Cache",
+    "outputs": [],
+    "signature": "updateERC165Cache(address,bytes4)",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "encoding": "0xf712f3e8",
+    "inputs": [
+      {
+        "name": "_contract",
+        "type": "address"
+      },
+      {
+        "name": "_interfaceId",
+        "type": "bytes4"
+      }
+    ],
+    "name": "implementsERC165Interface",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "bool"
+      }
+    ],
+    "signature": "implementsERC165Interface(address,bytes4)",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "encoding": "0xb7056765",
+    "inputs": [
+      {
+        "name": "_contract",
+        "type": "address"
+      },
+      {
+        "name": "_interfaceId",
+        "type": "bytes4"
+      }
+    ],
+    "name": "implementsERC165InterfaceNoCache",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "bool"
+      }
+    ],
+    "signature": "implementsERC165InterfaceNoCache(address,bytes4)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x9d4cf268",
+    "inputs": [
+      {
+        "name": "_interfaceHash",
+        "type": "bytes32"
+      }
+    ],
+    "name": "isERC165Interface",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "bool"
+      }
+    ],
+    "signature": "isERC165Interface(bytes32)",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "encoding": "0xf86cd33d",
+    "inputs": [
+      {
+        "name": "_contract",
+        "type": "address"
+      },
+      {
+        "name": "_interfaceId",
+        "type": "bytes4"
+      }
+    ],
+    "name": "noThrowCall",
+    "outputs": [
+      {
+        "name": "success",
+        "type": "uint256"
+      },
+      {
+        "name": "result",
+        "type": "uint256"
+      }
+    ],
+    "signature": "noThrowCall(address,bytes4)",
+    "type": "function"
+  }
+]

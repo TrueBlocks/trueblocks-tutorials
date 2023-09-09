@@ -1,0 +1,369 @@
+[
+  {
+    "constant": true,
+    "encoding": "0x06fdde03",
+    "inputs": [],
+    "name": "name",
+    "outputs": [
+      {
+        "name": "memory",
+        "type": "string"
+      }
+    ],
+    "signature": "name()",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "encoding": "0x95d89b41",
+    "inputs": [],
+    "name": "symbol",
+    "outputs": [
+      {
+        "name": "memory",
+        "type": "string"
+      }
+    ],
+    "signature": "symbol()",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "encoding": "0x18160ddd",
+    "inputs": [],
+    "name": "totalSupply",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "uint256"
+      }
+    ],
+    "signature": "totalSupply()",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "encoding": "0x70a08231",
+    "inputs": [
+      {
+        "name": "holder",
+        "type": "address"
+      }
+    ],
+    "name": "balanceOf",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "uint256"
+      }
+    ],
+    "signature": "balanceOf(address)",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "encoding": "0x556f0dc7",
+    "inputs": [],
+    "name": "granularity",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "uint256"
+      }
+    ],
+    "signature": "granularity()",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "encoding": "0x06e48538",
+    "inputs": [],
+    "name": "defaultOperators",
+    "outputs": [
+      {
+        "isArray": true,
+        "name": "memory",
+        "type": "address[]"
+      }
+    ],
+    "signature": "defaultOperators()",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "encoding": "0xd95b6371",
+    "inputs": [
+      {
+        "name": "operator",
+        "type": "address"
+      },
+      {
+        "name": "holder",
+        "type": "address"
+      }
+    ],
+    "name": "isOperatorFor",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "bool"
+      }
+    ],
+    "signature": "isOperatorFor(address,address)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x959b8c3f",
+    "inputs": [
+      {
+        "name": "operator",
+        "type": "address"
+      }
+    ],
+    "name": "authorizeOperator",
+    "outputs": [],
+    "signature": "authorizeOperator(address)",
+    "type": "function"
+  },
+  {
+    "encoding": "0xfad8b32a",
+    "inputs": [
+      {
+        "name": "operator",
+        "type": "address"
+      }
+    ],
+    "name": "revokeOperator",
+    "outputs": [],
+    "signature": "revokeOperator(address)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x9bd9bbc6",
+    "inputs": [
+      {
+        "name": "to",
+        "type": "address"
+      },
+      {
+        "name": "amount",
+        "type": "uint256"
+      },
+      {
+        "name": "data",
+        "type": "bytes"
+      }
+    ],
+    "name": "send",
+    "outputs": [],
+    "signature": "send(address,uint256,bytes)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x62ad1b83",
+    "inputs": [
+      {
+        "name": "from",
+        "type": "address"
+      },
+      {
+        "name": "to",
+        "type": "address"
+      },
+      {
+        "name": "amount",
+        "type": "uint256"
+      },
+      {
+        "name": "data",
+        "type": "bytes"
+      },
+      {
+        "name": "operatorData",
+        "type": "bytes"
+      }
+    ],
+    "name": "operatorSend",
+    "outputs": [],
+    "signature": "operatorSend(address,address,uint256,bytes,bytes)",
+    "type": "function"
+  },
+  {
+    "encoding": "0xfe9d9303",
+    "inputs": [
+      {
+        "name": "amount",
+        "type": "uint256"
+      },
+      {
+        "name": "data",
+        "type": "bytes"
+      }
+    ],
+    "name": "burn",
+    "outputs": [],
+    "signature": "burn(uint256,bytes)",
+    "type": "function"
+  },
+  {
+    "encoding": "0xfc673c4f",
+    "inputs": [
+      {
+        "name": "from",
+        "type": "address"
+      },
+      {
+        "name": "amount",
+        "type": "uint256"
+      },
+      {
+        "name": "data",
+        "type": "bytes"
+      },
+      {
+        "name": "operatorData",
+        "type": "bytes"
+      }
+    ],
+    "name": "operatorBurn",
+    "outputs": [],
+    "signature": "operatorBurn(address,uint256,bytes,bytes)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x06b541ddaa720db2b10a4d0cdac39b8d360425fc073085fac19bc82614677987",
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "operator",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "name": "from",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "name": "to",
+        "type": "address"
+      },
+      {
+        "name": "amount",
+        "type": "uint256"
+      },
+      {
+        "name": "data",
+        "type": "bytes"
+      },
+      {
+        "name": "operatorData",
+        "type": "bytes"
+      }
+    ],
+    "name": "Sent",
+    "outputs": [],
+    "signature": "Sent(address,address,address,uint256,bytes,bytes)",
+    "type": "event"
+  },
+  {
+    "encoding": "0x2fe5be0146f74c5bce36c0b80911af6c7d86ff27e89d5cfa61fc681327954e5d",
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "operator",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "name": "to",
+        "type": "address"
+      },
+      {
+        "name": "amount",
+        "type": "uint256"
+      },
+      {
+        "name": "data",
+        "type": "bytes"
+      },
+      {
+        "name": "operatorData",
+        "type": "bytes"
+      }
+    ],
+    "name": "Minted",
+    "outputs": [],
+    "signature": "Minted(address,address,uint256,bytes,bytes)",
+    "type": "event"
+  },
+  {
+    "encoding": "0xa78a9be3a7b862d26933ad85fb11d80ef66b8f972d7cbba06621d583943a4098",
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "operator",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "name": "from",
+        "type": "address"
+      },
+      {
+        "name": "amount",
+        "type": "uint256"
+      },
+      {
+        "name": "data",
+        "type": "bytes"
+      },
+      {
+        "name": "operatorData",
+        "type": "bytes"
+      }
+    ],
+    "name": "Burned",
+    "outputs": [],
+    "signature": "Burned(address,address,uint256,bytes,bytes)",
+    "type": "event"
+  },
+  {
+    "encoding": "0xf4caeb2d6ca8932a215a353d0703c326ec2d81fc68170f320eb2ab49e9df61f9",
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "operator",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "name": "holder",
+        "type": "address"
+      }
+    ],
+    "name": "AuthorizedOperator",
+    "outputs": [],
+    "signature": "AuthorizedOperator(address,address)",
+    "type": "event"
+  },
+  {
+    "encoding": "0x50546e66e5f44d728365dc3908c63bc5cfeeab470722c1677e3073a6ac294aa1",
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "operator",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "name": "holder",
+        "type": "address"
+      }
+    ],
+    "name": "RevokedOperator",
+    "outputs": [],
+    "signature": "RevokedOperator(address,address)",
+    "type": "event"
+  }
+]

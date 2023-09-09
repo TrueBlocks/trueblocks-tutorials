@@ -1,0 +1,8 @@
+libs
+zarchive
+bin
+build
+design.txt
+*.mak
+*.a
+*.twb

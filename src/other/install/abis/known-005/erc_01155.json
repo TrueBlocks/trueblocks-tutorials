@@ -1,0 +1,1726 @@
+[
+  {
+    "encoding": "0xa175b638",
+    "inputs": [
+      {
+        "name": "_value",
+        "type": "bool"
+      }
+    ],
+    "name": "setShouldReject",
+    "outputs": [],
+    "signature": "setShouldReject(bool)",
+    "type": "function"
+  },
+  {
+    "encoding": "0xf23a6e61",
+    "inputs": [
+      {
+        "name": "_operator",
+        "type": "address"
+      },
+      {
+        "name": "_from",
+        "type": "address"
+      },
+      {
+        "name": "_id",
+        "type": "uint256"
+      },
+      {
+        "name": "_value",
+        "type": "uint256"
+      },
+      {
+        "name": "_data",
+        "type": "bytes"
+      }
+    ],
+    "name": "onERC1155Received",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "bytes4"
+      }
+    ],
+    "signature": "onERC1155Received(address,address,uint256,uint256,bytes)",
+    "type": "function"
+  },
+  {
+    "encoding": "0xbc197c81",
+    "inputs": [
+      {
+        "name": "_operator",
+        "type": "address"
+      },
+      {
+        "name": "_from",
+        "type": "address"
+      },
+      {
+        "isArray": true,
+        "name": "_ids",
+        "type": "uint256[]"
+      },
+      {
+        "isArray": true,
+        "name": "_values",
+        "type": "uint256[]"
+      },
+      {
+        "name": "_data",
+        "type": "bytes"
+      }
+    ],
+    "name": "onERC1155BatchReceived",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "bytes4"
+      }
+    ],
+    "signature": "onERC1155BatchReceived(address,address,uint256[],uint256[],bytes)",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "encoding": "0x01ffc9a7",
+    "inputs": [
+      {
+        "name": "interfaceID",
+        "type": "bytes4"
+      }
+    ],
+    "name": "supportsInterface",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "bool"
+      }
+    ],
+    "signature": "supportsInterface(bytes4)",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "encoding": "0x0e89341c",
+    "inputs": [
+      {
+        "name": "_id",
+        "type": "uint256"
+      }
+    ],
+    "name": "uri",
+    "outputs": [
+      {
+        "name": "memory",
+        "type": "string"
+      }
+    ],
+    "signature": "uri(uint256)",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "encoding": "0x01ffc9a7",
+    "inputs": [
+      {
+        "name": "_interfaceId",
+        "type": "bytes4"
+      }
+    ],
+    "name": "supportsInterface",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "bool"
+      }
+    ],
+    "signature": "supportsInterface(bytes4)",
+    "type": "function"
+  },
+  {
+    "encoding": "0xf242432a",
+    "inputs": [
+      {
+        "name": "_from",
+        "type": "address"
+      },
+      {
+        "name": "_to",
+        "type": "address"
+      },
+      {
+        "name": "_id",
+        "type": "uint256"
+      },
+      {
+        "name": "_value",
+        "type": "uint256"
+      },
+      {
+        "name": "_data",
+        "type": "bytes"
+      }
+    ],
+    "name": "safeTransferFrom",
+    "outputs": [],
+    "signature": "safeTransferFrom(address,address,uint256,uint256,bytes)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x2eb2c2d6",
+    "inputs": [
+      {
+        "name": "_from",
+        "type": "address"
+      },
+      {
+        "name": "_to",
+        "type": "address"
+      },
+      {
+        "isArray": true,
+        "name": "_ids",
+        "type": "uint256[]"
+      },
+      {
+        "isArray": true,
+        "name": "_values",
+        "type": "uint256[]"
+      },
+      {
+        "name": "_data",
+        "type": "bytes"
+      }
+    ],
+    "name": "safeBatchTransferFrom",
+    "outputs": [],
+    "signature": "safeBatchTransferFrom(address,address,uint256[],uint256[],bytes)",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "encoding": "0x00fdd58e",
+    "inputs": [
+      {
+        "name": "_owner",
+        "type": "address"
+      },
+      {
+        "name": "_id",
+        "type": "uint256"
+      }
+    ],
+    "name": "balanceOf",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "uint256"
+      }
+    ],
+    "signature": "balanceOf(address,uint256)",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "encoding": "0x4e1273f4",
+    "inputs": [
+      {
+        "isArray": true,
+        "name": "_owners",
+        "type": "address[]"
+      },
+      {
+        "isArray": true,
+        "name": "_ids",
+        "type": "uint256[]"
+      }
+    ],
+    "name": "balanceOfBatch",
+    "outputs": [
+      {
+        "isArray": true,
+        "name": "memory",
+        "type": "uint256[]"
+      }
+    ],
+    "signature": "balanceOfBatch(address[],uint256[])",
+    "type": "function"
+  },
+  {
+    "encoding": "0xa22cb465",
+    "inputs": [
+      {
+        "name": "_operator",
+        "type": "address"
+      },
+      {
+        "name": "_approved",
+        "type": "bool"
+      }
+    ],
+    "name": "setApprovalForAll",
+    "outputs": [],
+    "signature": "setApprovalForAll(address,bool)",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "encoding": "0xe985e9c5",
+    "inputs": [
+      {
+        "name": "_owner",
+        "type": "address"
+      },
+      {
+        "name": "_operator",
+        "type": "address"
+      }
+    ],
+    "name": "isApprovedForAll",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "bool"
+      }
+    ],
+    "signature": "isApprovedForAll(address,address)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x084e9e24",
+    "inputs": [
+      {
+        "name": "_operator",
+        "type": "address"
+      },
+      {
+        "name": "_from",
+        "type": "address"
+      },
+      {
+        "name": "_to",
+        "type": "address"
+      },
+      {
+        "name": "_id",
+        "type": "uint256"
+      },
+      {
+        "name": "_value",
+        "type": "uint256"
+      },
+      {
+        "name": "_data",
+        "type": "bytes"
+      }
+    ],
+    "name": "_doSafeTransferAcceptanceCheck",
+    "outputs": [],
+    "signature": "_doSafeTransferAcceptanceCheck(address,address,address,uint256,uint256,bytes)",
+    "type": "function"
+  },
+  {
+    "encoding": "0xe51c223d",
+    "inputs": [
+      {
+        "name": "_operator",
+        "type": "address"
+      },
+      {
+        "name": "_from",
+        "type": "address"
+      },
+      {
+        "name": "_to",
+        "type": "address"
+      },
+      {
+        "isArray": true,
+        "name": "_ids",
+        "type": "uint256[]"
+      },
+      {
+        "isArray": true,
+        "name": "_values",
+        "type": "uint256[]"
+      },
+      {
+        "name": "_data",
+        "type": "bytes"
+      }
+    ],
+    "name": "_doSafeBatchTransferAcceptanceCheck",
+    "outputs": [],
+    "signature": "_doSafeBatchTransferAcceptanceCheck(address,address,address,uint256[],uint256[],bytes)",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "encoding": "0x01ffc9a7",
+    "inputs": [
+      {
+        "name": "_interfaceId",
+        "type": "bytes4"
+      }
+    ],
+    "name": "supportsInterface",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "bool"
+      }
+    ],
+    "signature": "supportsInterface(bytes4)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x0118fa49",
+    "inputs": [
+      {
+        "name": "_initialSupply",
+        "type": "uint256"
+      },
+      {
+        "name": "_uri",
+        "type": "string"
+      }
+    ],
+    "name": "create",
+    "outputs": [
+      {
+        "name": "_id",
+        "type": "uint256"
+      }
+    ],
+    "signature": "create(uint256,string)",
+    "type": "function"
+  },
+  {
+    "encoding": "0xcfa84fc1",
+    "inputs": [
+      {
+        "name": "_id",
+        "type": "uint256"
+      },
+      {
+        "isArray": true,
+        "name": "_to",
+        "type": "address[]"
+      },
+      {
+        "isArray": true,
+        "name": "_quantities",
+        "type": "uint256[]"
+      }
+    ],
+    "name": "mint",
+    "outputs": [],
+    "signature": "mint(uint256,address[],uint256[])",
+    "type": "function"
+  },
+  {
+    "encoding": "0x67db3b8f",
+    "inputs": [
+      {
+        "name": "_uri",
+        "type": "string"
+      },
+      {
+        "name": "_id",
+        "type": "uint256"
+      }
+    ],
+    "name": "setURI",
+    "outputs": [],
+    "signature": "setURI(string,uint256)",
+    "type": "function"
+  },
+  {
+    "encoding": "0xc3d58168c5ae7397731d063d5bbf3d657854427343f4c083240f7aacaa2d0f62",
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "_operator",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "name": "_from",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "name": "_to",
+        "type": "address"
+      },
+      {
+        "name": "_id",
+        "type": "uint256"
+      },
+      {
+        "name": "_value",
+        "type": "uint256"
+      }
+    ],
+    "name": "TransferSingle",
+    "outputs": [],
+    "signature": "TransferSingle(address,address,address,uint256,uint256)",
+    "type": "event"
+  },
+  {
+    "encoding": "0x4a39dc06d4c0dbc64b70af90fd698a233a518aa5d07e595d983b8c0526c8f7fb",
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "_operator",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "name": "_from",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "name": "_to",
+        "type": "address"
+      },
+      {
+        "isArray": true,
+        "name": "_ids",
+        "type": "uint256[]"
+      },
+      {
+        "isArray": true,
+        "name": "_values",
+        "type": "uint256[]"
+      }
+    ],
+    "name": "TransferBatch",
+    "outputs": [],
+    "signature": "TransferBatch(address,address,address,uint256[],uint256[])",
+    "type": "event"
+  },
+  {
+    "encoding": "0x17307eab39ab6107e8899845ad3d59bd9653f200f220920489ca2b5937696c31",
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "_owner",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "name": "_operator",
+        "type": "address"
+      },
+      {
+        "name": "_approved",
+        "type": "bool"
+      }
+    ],
+    "name": "ApprovalForAll",
+    "outputs": [],
+    "signature": "ApprovalForAll(address,address,bool)",
+    "type": "event"
+  },
+  {
+    "encoding": "0x6bb7ff708619ba0610cba295a58592e0451dee2622938c8755667688daf3529b",
+    "inputs": [
+      {
+        "name": "_value",
+        "type": "string"
+      },
+      {
+        "indexed": true,
+        "name": "_id",
+        "type": "uint256"
+      }
+    ],
+    "name": "URI",
+    "outputs": [],
+    "signature": "URI(string,uint256)",
+    "type": "event"
+  },
+  {
+    "encoding": "0xf242432a",
+    "inputs": [
+      {
+        "name": "_from",
+        "type": "address"
+      },
+      {
+        "name": "_to",
+        "type": "address"
+      },
+      {
+        "name": "_id",
+        "type": "uint256"
+      },
+      {
+        "name": "_value",
+        "type": "uint256"
+      },
+      {
+        "name": "_data",
+        "type": "bytes"
+      }
+    ],
+    "name": "safeTransferFrom",
+    "outputs": [],
+    "signature": "safeTransferFrom(address,address,uint256,uint256,bytes)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x2eb2c2d6",
+    "inputs": [
+      {
+        "name": "_from",
+        "type": "address"
+      },
+      {
+        "name": "_to",
+        "type": "address"
+      },
+      {
+        "isArray": true,
+        "name": "_ids",
+        "type": "uint256[]"
+      },
+      {
+        "isArray": true,
+        "name": "_values",
+        "type": "uint256[]"
+      },
+      {
+        "name": "_data",
+        "type": "bytes"
+      }
+    ],
+    "name": "safeBatchTransferFrom",
+    "outputs": [],
+    "signature": "safeBatchTransferFrom(address,address,uint256[],uint256[],bytes)",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "encoding": "0x00fdd58e",
+    "inputs": [
+      {
+        "name": "_owner",
+        "type": "address"
+      },
+      {
+        "name": "_id",
+        "type": "uint256"
+      }
+    ],
+    "name": "balanceOf",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "uint256"
+      }
+    ],
+    "signature": "balanceOf(address,uint256)",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "encoding": "0x4e1273f4",
+    "inputs": [
+      {
+        "isArray": true,
+        "name": "_owners",
+        "type": "address[]"
+      },
+      {
+        "isArray": true,
+        "name": "_ids",
+        "type": "uint256[]"
+      }
+    ],
+    "name": "balanceOfBatch",
+    "outputs": [
+      {
+        "isArray": true,
+        "name": "memory",
+        "type": "uint256[]"
+      }
+    ],
+    "signature": "balanceOfBatch(address[],uint256[])",
+    "type": "function"
+  },
+  {
+    "encoding": "0xa22cb465",
+    "inputs": [
+      {
+        "name": "_operator",
+        "type": "address"
+      },
+      {
+        "name": "_approved",
+        "type": "bool"
+      }
+    ],
+    "name": "setApprovalForAll",
+    "outputs": [],
+    "signature": "setApprovalForAll(address,bool)",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "encoding": "0xe985e9c5",
+    "inputs": [
+      {
+        "name": "_owner",
+        "type": "address"
+      },
+      {
+        "name": "_operator",
+        "type": "address"
+      }
+    ],
+    "name": "isApprovedForAll",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "bool"
+      }
+    ],
+    "signature": "isApprovedForAll(address,address)",
+    "type": "function"
+  },
+  {
+    "encoding": "0xcc10e401",
+    "inputs": [
+      {
+        "name": "_uri",
+        "type": "string"
+      },
+      {
+        "name": "_isNF",
+        "type": "bool"
+      }
+    ],
+    "name": "create",
+    "outputs": [
+      {
+        "name": "_type",
+        "type": "uint256"
+      }
+    ],
+    "signature": "create(string,bool)",
+    "type": "function"
+  },
+  {
+    "encoding": "0xf9419088",
+    "inputs": [
+      {
+        "name": "_type",
+        "type": "uint256"
+      },
+      {
+        "isArray": true,
+        "name": "_to",
+        "type": "address[]"
+      }
+    ],
+    "name": "mintNonFungible",
+    "outputs": [],
+    "signature": "mintNonFungible(uint256,address[])",
+    "type": "function"
+  },
+  {
+    "encoding": "0x78b27221",
+    "inputs": [
+      {
+        "name": "_id",
+        "type": "uint256"
+      },
+      {
+        "isArray": true,
+        "name": "_to",
+        "type": "address[]"
+      },
+      {
+        "isArray": true,
+        "name": "_quantities",
+        "type": "uint256[]"
+      }
+    ],
+    "name": "mintFungible",
+    "outputs": [],
+    "signature": "mintFungible(uint256,address[],uint256[])",
+    "type": "function"
+  },
+  {
+    "encoding": "0xc8a4ac9c",
+    "inputs": [
+      {
+        "name": "a",
+        "type": "uint256"
+      },
+      {
+        "name": "b",
+        "type": "uint256"
+      }
+    ],
+    "name": "mul",
+    "outputs": [
+      {
+        "name": "c",
+        "type": "uint256"
+      }
+    ],
+    "signature": "mul(uint256,uint256)",
+    "type": "function"
+  },
+  {
+    "encoding": "0xa391c15b",
+    "inputs": [
+      {
+        "name": "a",
+        "type": "uint256"
+      },
+      {
+        "name": "b",
+        "type": "uint256"
+      }
+    ],
+    "name": "div",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "uint256"
+      }
+    ],
+    "signature": "div(uint256,uint256)",
+    "type": "function"
+  },
+  {
+    "encoding": "0xb67d77c5",
+    "inputs": [
+      {
+        "name": "a",
+        "type": "uint256"
+      },
+      {
+        "name": "b",
+        "type": "uint256"
+      }
+    ],
+    "name": "sub",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "uint256"
+      }
+    ],
+    "signature": "sub(uint256,uint256)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x771602f7",
+    "inputs": [
+      {
+        "name": "a",
+        "type": "uint256"
+      },
+      {
+        "name": "b",
+        "type": "uint256"
+      }
+    ],
+    "name": "add",
+    "outputs": [
+      {
+        "name": "c",
+        "type": "uint256"
+      }
+    ],
+    "signature": "add(uint256,uint256)",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "encoding": "0x16279055",
+    "inputs": [
+      {
+        "name": "account",
+        "type": "address"
+      }
+    ],
+    "name": "isContract",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "bool"
+      }
+    ],
+    "signature": "isContract(address)",
+    "type": "function"
+  },
+  {
+    "encoding": "0xfdacd576",
+    "inputs": [
+      {
+        "name": "completed",
+        "type": "uint256"
+      }
+    ],
+    "name": "setCompleted",
+    "outputs": [],
+    "signature": "setCompleted(uint256)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x0900f010",
+    "inputs": [
+      {
+        "name": "new_address",
+        "type": "address"
+      }
+    ],
+    "name": "upgrade",
+    "outputs": [],
+    "signature": "upgrade(address)",
+    "type": "function"
+  },
+  {
+    "encoding": "0xf23a6e61",
+    "inputs": [
+      {
+        "name": "_operator",
+        "type": "address"
+      },
+      {
+        "name": "_from",
+        "type": "address"
+      },
+      {
+        "name": "_id",
+        "type": "uint256"
+      },
+      {
+        "name": "_value",
+        "type": "uint256"
+      },
+      {
+        "name": "_data",
+        "type": "bytes"
+      }
+    ],
+    "name": "onERC1155Received",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "bytes4"
+      }
+    ],
+    "signature": "onERC1155Received(address,address,uint256,uint256,bytes)",
+    "type": "function"
+  },
+  {
+    "encoding": "0xbc197c81",
+    "inputs": [
+      {
+        "name": "_operator",
+        "type": "address"
+      },
+      {
+        "name": "_from",
+        "type": "address"
+      },
+      {
+        "isArray": true,
+        "name": "_ids",
+        "type": "uint256[]"
+      },
+      {
+        "isArray": true,
+        "name": "_values",
+        "type": "uint256[]"
+      },
+      {
+        "name": "_data",
+        "type": "bytes"
+      }
+    ],
+    "name": "onERC1155BatchReceived",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "bytes4"
+      }
+    ],
+    "signature": "onERC1155BatchReceived(address,address,uint256[],uint256[],bytes)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x61455567",
+    "inputs": [
+      {
+        "name": "_delegate",
+        "type": "address"
+      },
+      {
+        "name": "_functionSignatures",
+        "type": "string"
+      },
+      {
+        "name": "_commitMessage",
+        "type": "string"
+      }
+    ],
+    "name": "updateContract",
+    "outputs": [],
+    "signature": "updateContract(address,string,string)",
+    "type": "function"
+  },
+  {
+    "encoding": "0xa175b638",
+    "inputs": [
+      {
+        "name": "_value",
+        "type": "bool"
+      }
+    ],
+    "name": "setShouldReject",
+    "outputs": [],
+    "signature": "setShouldReject(bool)",
+    "type": "function"
+  },
+  {
+    "encoding": "0xf23a6e61",
+    "inputs": [
+      {
+        "name": "_operator",
+        "type": "address"
+      },
+      {
+        "name": "_from",
+        "type": "address"
+      },
+      {
+        "name": "_id",
+        "type": "uint256"
+      },
+      {
+        "name": "_value",
+        "type": "uint256"
+      },
+      {
+        "name": "_data",
+        "type": "bytes"
+      }
+    ],
+    "name": "onERC1155Received",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "bytes4"
+      }
+    ],
+    "signature": "onERC1155Received(address,address,uint256,uint256,bytes)",
+    "type": "function"
+  },
+  {
+    "encoding": "0xbc197c81",
+    "inputs": [
+      {
+        "name": "_operator",
+        "type": "address"
+      },
+      {
+        "name": "_from",
+        "type": "address"
+      },
+      {
+        "isArray": true,
+        "name": "_ids",
+        "type": "uint256[]"
+      },
+      {
+        "isArray": true,
+        "name": "_values",
+        "type": "uint256[]"
+      },
+      {
+        "name": "_data",
+        "type": "bytes"
+      }
+    ],
+    "name": "onERC1155BatchReceived",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "bytes4"
+      }
+    ],
+    "signature": "onERC1155BatchReceived(address,address,uint256[],uint256[],bytes)",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "encoding": "0x01ffc9a7",
+    "inputs": [
+      {
+        "name": "interfaceID",
+        "type": "bytes4"
+      }
+    ],
+    "name": "supportsInterface",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "bool"
+      }
+    ],
+    "signature": "supportsInterface(bytes4)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x2090dd24",
+    "inputs": [
+      {
+        "name": "_value",
+        "type": "bool"
+      }
+    ],
+    "name": "setShouldRejectClash",
+    "outputs": [],
+    "signature": "setShouldRejectClash(bool)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x80f5fe74",
+    "inputs": [
+      {
+        "name": "_value",
+        "type": "bool"
+      }
+    ],
+    "name": "setShouldRejectXXXX",
+    "outputs": [],
+    "signature": "setShouldRejectXXXX(bool)",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "encoding": "0xeb510be8",
+    "inputs": [
+      {
+        "name": "_operator",
+        "type": "address"
+      },
+      {
+        "name": "_from",
+        "type": "address"
+      },
+      {
+        "name": "_id",
+        "type": "uint256"
+      },
+      {
+        "name": "_value",
+        "type": "uint256"
+      },
+      {
+        "name": "_data",
+        "type": "bytes"
+      }
+    ],
+    "name": "onERCXXXXReceived",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "bytes4"
+      }
+    ],
+    "signature": "onERCXXXXReceived(address,address,uint256,uint256,bytes)",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "encoding": "0xe9e5be6a",
+    "inputs": [
+      {
+        "name": "_operator",
+        "type": "address"
+      },
+      {
+        "name": "_from",
+        "type": "address"
+      },
+      {
+        "isArray": true,
+        "name": "_ids",
+        "type": "uint256[]"
+      },
+      {
+        "isArray": true,
+        "name": "_values",
+        "type": "uint256[]"
+      },
+      {
+        "name": "_data",
+        "type": "bytes"
+      }
+    ],
+    "name": "onERCXXXXBatchReceived",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "bytes4"
+      }
+    ],
+    "signature": "onERCXXXXBatchReceived(address,address,uint256[],uint256[],bytes)",
+    "type": "function"
+  },
+  {
+    "encoding": "0xaa1c0a0a78cec2470f9652e5d29540752e7a64d70f926933cebf13afaeda45de",
+    "inputs": [
+      {
+        "name": "message",
+        "type": "string"
+      }
+    ],
+    "name": "CommitMessage",
+    "outputs": [],
+    "signature": "CommitMessage(string)",
+    "type": "event"
+  },
+  {
+    "encoding": "0x3234040ce3bd4564874e44810f198910133a1b24c4e84aac87edbf6b458f5353",
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "functionId",
+        "type": "bytes4"
+      },
+      {
+        "indexed": true,
+        "name": "oldDelegate",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "name": "newDelegate",
+        "type": "address"
+      },
+      {
+        "name": "functionSignature",
+        "type": "string"
+      }
+    ],
+    "name": "FunctionUpdate",
+    "outputs": [],
+    "signature": "FunctionUpdate(bytes4,address,address,string)",
+    "type": "event"
+  },
+  {
+    "encoding": "0x61455567",
+    "inputs": [
+      {
+        "name": "_delegate",
+        "type": "address"
+      },
+      {
+        "name": "_functionSignatures",
+        "type": "string"
+      },
+      {
+        "name": "_commitMessage",
+        "type": "string"
+      }
+    ],
+    "name": "updateContract",
+    "outputs": [],
+    "signature": "updateContract(address,string,string)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x3a9c85c6b31f7a9d7fe1478f53e1be42e85db97ca30d1789cfef9196dbc472c9",
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "_owner",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "name": "_spender",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "name": "_id",
+        "type": "uint256"
+      },
+      {
+        "name": "_oldValue",
+        "type": "uint256"
+      },
+      {
+        "name": "_value",
+        "type": "uint256"
+      }
+    ],
+    "name": "Approval",
+    "outputs": [],
+    "signature": "Approval(address,address,uint256,uint256,uint256)",
+    "type": "event"
+  },
+  {
+    "encoding": "0x4f4df442",
+    "inputs": [
+      {
+        "name": "_spender",
+        "type": "address"
+      },
+      {
+        "name": "_id",
+        "type": "uint256"
+      },
+      {
+        "name": "_currentValue",
+        "type": "uint256"
+      },
+      {
+        "name": "_value",
+        "type": "uint256"
+      }
+    ],
+    "name": "approve",
+    "outputs": [],
+    "signature": "approve(address,uint256,uint256,uint256)",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "encoding": "0x598af9e7",
+    "inputs": [
+      {
+        "name": "_owner",
+        "type": "address"
+      },
+      {
+        "name": "_spender",
+        "type": "address"
+      },
+      {
+        "name": "_id",
+        "type": "uint256"
+      }
+    ],
+    "name": "allowance",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "uint256"
+      }
+    ],
+    "signature": "allowance(address,address,uint256)",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "encoding": "0x01ffc9a7",
+    "inputs": [
+      {
+        "name": "_interfaceId",
+        "type": "bytes4"
+      }
+    ],
+    "name": "supportsInterface",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "bool"
+      }
+    ],
+    "signature": "supportsInterface(bytes4)",
+    "type": "function"
+  },
+  {
+    "encoding": "0xf242432a",
+    "inputs": [
+      {
+        "name": "_from",
+        "type": "address"
+      },
+      {
+        "name": "_to",
+        "type": "address"
+      },
+      {
+        "name": "_id",
+        "type": "uint256"
+      },
+      {
+        "name": "_value",
+        "type": "uint256"
+      },
+      {
+        "name": "_data",
+        "type": "bytes"
+      }
+    ],
+    "name": "safeTransferFrom",
+    "outputs": [],
+    "signature": "safeTransferFrom(address,address,uint256,uint256,bytes)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x2eb2c2d6",
+    "inputs": [
+      {
+        "name": "_from",
+        "type": "address"
+      },
+      {
+        "name": "_to",
+        "type": "address"
+      },
+      {
+        "isArray": true,
+        "name": "_ids",
+        "type": "uint256[]"
+      },
+      {
+        "isArray": true,
+        "name": "_values",
+        "type": "uint256[]"
+      },
+      {
+        "name": "_data",
+        "type": "bytes"
+      }
+    ],
+    "name": "safeBatchTransferFrom",
+    "outputs": [],
+    "signature": "safeBatchTransferFrom(address,address,uint256[],uint256[],bytes)",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "encoding": "0x00fdd58e",
+    "inputs": [
+      {
+        "name": "_owner",
+        "type": "address"
+      },
+      {
+        "name": "_id",
+        "type": "uint256"
+      }
+    ],
+    "name": "balanceOf",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "uint256"
+      }
+    ],
+    "signature": "balanceOf(address,uint256)",
+    "type": "function"
+  },
+  {
+    "encoding": "0xa22cb465",
+    "inputs": [
+      {
+        "name": "val_0",
+        "type": "address"
+      },
+      {
+        "name": "val_1",
+        "type": "bool"
+      }
+    ],
+    "name": "setApprovalForAll",
+    "outputs": [],
+    "signature": "setApprovalForAll(address,bool)",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "encoding": "0xe985e9c5",
+    "inputs": [
+      {
+        "name": "_owner",
+        "type": "address"
+      },
+      {
+        "name": "_operator",
+        "type": "address"
+      }
+    ],
+    "name": "isApprovedForAll",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "bool"
+      }
+    ],
+    "signature": "isApprovedForAll(address,address)",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "encoding": "0x01ffc9a7",
+    "inputs": [
+      {
+        "name": "_interfaceId",
+        "type": "bytes4"
+      }
+    ],
+    "name": "supportsInterface",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "bool"
+      }
+    ],
+    "signature": "supportsInterface(bytes4)",
+    "type": "function"
+  },
+  {
+    "encoding": "0xe44591f0",
+    "inputs": [
+      {
+        "name": "_id",
+        "type": "uint256"
+      }
+    ],
+    "name": "isNonFungible",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "bool"
+      }
+    ],
+    "signature": "isNonFungible(uint256)",
+    "type": "function"
+  },
+  {
+    "encoding": "0xadebf6f2",
+    "inputs": [
+      {
+        "name": "_id",
+        "type": "uint256"
+      }
+    ],
+    "name": "isFungible",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "bool"
+      }
+    ],
+    "signature": "isFungible(uint256)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x9cca1c64",
+    "inputs": [
+      {
+        "name": "_id",
+        "type": "uint256"
+      }
+    ],
+    "name": "getNonFungibleIndex",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "uint256"
+      }
+    ],
+    "signature": "getNonFungibleIndex(uint256)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x6f969c2d",
+    "inputs": [
+      {
+        "name": "_id",
+        "type": "uint256"
+      }
+    ],
+    "name": "getNonFungibleBaseType",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "uint256"
+      }
+    ],
+    "signature": "getNonFungibleBaseType(uint256)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x7269a327",
+    "inputs": [
+      {
+        "name": "_id",
+        "type": "uint256"
+      }
+    ],
+    "name": "isNonFungibleBaseType",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "bool"
+      }
+    ],
+    "signature": "isNonFungibleBaseType(uint256)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x5e81b958",
+    "inputs": [
+      {
+        "name": "_id",
+        "type": "uint256"
+      }
+    ],
+    "name": "isNonFungibleItem",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "bool"
+      }
+    ],
+    "signature": "isNonFungibleItem(uint256)",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "encoding": "0x6352211e",
+    "inputs": [
+      {
+        "name": "_id",
+        "type": "uint256"
+      }
+    ],
+    "name": "ownerOf",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "address"
+      }
+    ],
+    "signature": "ownerOf(uint256)",
+    "type": "function"
+  },
+  {
+    "encoding": "0xf242432a",
+    "inputs": [
+      {
+        "name": "_from",
+        "type": "address"
+      },
+      {
+        "name": "_to",
+        "type": "address"
+      },
+      {
+        "name": "_id",
+        "type": "uint256"
+      },
+      {
+        "name": "_value",
+        "type": "uint256"
+      },
+      {
+        "name": "_data",
+        "type": "bytes"
+      }
+    ],
+    "name": "safeTransferFrom",
+    "outputs": [],
+    "signature": "safeTransferFrom(address,address,uint256,uint256,bytes)",
+    "type": "function"
+  },
+  {
+    "encoding": "0x2eb2c2d6",
+    "inputs": [
+      {
+        "name": "_from",
+        "type": "address"
+      },
+      {
+        "name": "_to",
+        "type": "address"
+      },
+      {
+        "isArray": true,
+        "name": "_ids",
+        "type": "uint256[]"
+      },
+      {
+        "isArray": true,
+        "name": "_values",
+        "type": "uint256[]"
+      },
+      {
+        "name": "_data",
+        "type": "bytes"
+      }
+    ],
+    "name": "safeBatchTransferFrom",
+    "outputs": [],
+    "signature": "safeBatchTransferFrom(address,address,uint256[],uint256[],bytes)",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "encoding": "0x00fdd58e",
+    "inputs": [
+      {
+        "name": "_owner",
+        "type": "address"
+      },
+      {
+        "name": "_id",
+        "type": "uint256"
+      }
+    ],
+    "name": "balanceOf",
+    "outputs": [
+      {
+        "name": "ret_0",
+        "type": "uint256"
+      }
+    ],
+    "signature": "balanceOf(address,uint256)",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "encoding": "0x4e1273f4",
+    "inputs": [
+      {
+        "isArray": true,
+        "name": "_owners",
+        "type": "address[]"
+      },
+      {
+        "isArray": true,
+        "name": "_ids",
+        "type": "uint256[]"
+      }
+    ],
+    "name": "balanceOfBatch",
+    "outputs": [
+      {
+        "isArray": true,
+        "name": "memory",
+        "type": "uint256[]"
+      }
+    ],
+    "signature": "balanceOfBatch(address[],uint256[])",
+    "type": "function"
+  }
+]
